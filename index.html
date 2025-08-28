@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Christ Symbol Prayer Ministry</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header id="header">
+    <div class="logo">
+      <a href="index.html" style="display:flex;align-items:center;gap:12px;text-decoration:none;">
+        <img src="images/church_logo.jpg" alt="Christ Symbol Prayer Ministry"/>
+        <span class="site-name">Christ Symbol Prayer Ministry</span>
+      </a>
+    </div>
+
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#events">Events</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="give.html" class="btn-primary">Give</a></li>
+        <li><a href="#live" class="btn-secondary">Watch Live</a></li>
+      </ul>
+      <div class="menu-toggle" id="menu-toggle" aria-label="Open menu" role="button" tabindex="0">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <!-- Mobile globe container (shows only on mobile) -->
+    <div class="mobile-globe-container">
+      <canvas id="mobile-globe" aria-hidden="true"></canvas>
+    </div>
+
+    <!-- Desktop globe (shows only on desktop) -->
+    <canvas id="globe" aria-hidden="true"></canvas>
+
+    <div class="hero-content">
+      <h1>Welcome to Christ Symbol Prayer Ministry</h1>
+      <p class="vision"><strong>Vision:</strong> From Nowhere to Somewhere</p>
+      <p class="bible-verse">"For I know the plans I have for you, declares the Lord, plans to prosper you and not to harm you, plans to give you hope and a future." — Jeremiah 29:11</p>
+      <div class="hero-actions">
+        <a href="give.html" class="btn-primary">Give</a>
+        <a href="#live" class="btn-secondary">Watch Live</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT PREVIEW (homepage) -->
+  <section id="about" class="about-preview">
+    <div class="about-container">
+      <div class="about-text">
+        <h2>About Us</h2>
+        <p>
+          Christ Symbol Prayer Ministry exists to preach salvation and prepare people to step into the
+          Kingdom of God. Led by the clear message of our Man of God — that <strong>"God is taking everyone to a greater place"</strong> —
+          we blend powerful teaching with practical care so lives are changed both spiritually and tangibly.
+        </p>
+        <p>
+          Through worship, discipleship and targeted outreach, we serve families, empower the vulnerable
+          and create opportunities for long-term change: from orphan care and feeding programs to skills
+          training and small-business support.
+        </p>
+        <p>
+          Join us — whether you are searching for hope, want to volunteer, or would like to support our work.
+          Together we move from nowhere to somewhere.
+        </p>
+
+        <div style="margin-top:14px;">
+          <a href="about.html" class="btn-primary">Learn More</a>
+        </div>
+      </div>
+
+      <div class="about-image">
+        <img src="images/church_collage_image.jpg" alt="Christ Symbol Prayer Ministry — community and outreach"/>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services">
+    <h2>Our Services</h2>
+    <p>Join us for weekly worship, prayer gatherings, and fellowship as we grow together in faith and community.</p>
+    
+    <div class="services-schedule">
+      <div class="service-item">
+        <div class="service-day">Monday</div>
+        <div class="service-time">5:00 PM - 6:00 PM</div>
+        <div class="service-title">Workers Meeting</div>
+        <div class="service-description">Church affairs discussion, planning, and Bible teaching for ministry workers</div>
+      </div>
+
+      <div class="service-item">
+        <div class="service-day">Thursday</div>
+        <div class="service-time">6:00 AM - 7:00 AM</div>
+        <div class="service-title">Early Morning Prayer</div>
+        <div class="service-description">Start your day with powerful prayer and meditation</div>
+      </div>
+
+      <div class="service-item">
+        <div class="service-day">Friday</div>
+        <div class="service-time">5:00 PM - 6:00 PM</div>
+        <div class="service-title">Intercessory Prayer</div>
+        <div class="service-description">Dedicated time for deep intercession and spiritual warfare</div>
+      </div>
+
+      <div class="service-item featured">
+        <div class="service-day">Sunday</div>
+        <div class="service-time">7:00 AM - 10:00 AM</div>
+        <div class="service-title">Sunday Service</div>
+        <div class="service-description">Main worship service with teaching, praise, and fellowship</div>
+      </div>
+    </div>
+  </section>
+
+<!-- UPCOMING EVENT -->
+<section id="events">
+  <div class="container">
+    <h2>Upcoming Event</h2>
+    <p>Stay updated with our latest event. Check back regularly for new conferences, trainings, and special outreaches.</p>
+
+    <div class="event-card">
+      <img src="images/youth.jpg" alt="Event Banner">
+      <div class="event-info">
+        <h3>Annual Youth Conference 2025</h3>
+        <p>Join us for a weekend of workshops, inspiration, and networking with youth leaders.</p>
+        <a href="#contact" class="btn">Contact Us</a>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- CONTACT -->
+  <!-- CONTACT SECTION -->
+<section id="contact">
+  <div class="container">
+    <h2>Get in Touch</h2>
+    <p>We’d love to hear from you! Whether you have questions about our events, need guidance, or want to get involved, reach out to us below. Our team is ready to assist you.</p>
+
+    <div class="contact-wrapper">
+      <!-- Contact Info -->
+      <div class="contact-info">
+        <div class="info-item">
+          <h3>Email</h3>
+          <p>info@yourchurch.com</p>
+        </div>
+        <div class="info-item">
+          <h3>Phone</h3>
+          <p>+234 905 589 6438</p>
+        </div>
+        <div class="info-item">
+          <h3>Location</h3>
+          <p>123 Church Street, Your City, Nigeria</p>
+        </div>
+
+        <!-- Social Media -->
+
+
+
+
+      <!-- Contact Form -->
+<form id="contactForm" class="contact-form" method="POST">
+  <label for="name">Full Name</label>
+  <input type="text" id="name" name="name" placeholder="Your name" required>
+
+  <label for="email">Email Address</label>
+  <input type="email" id="email" name="email" placeholder="Your email" required>
+
+  <label for="message">Message</label>
+  <textarea id="message" name="message" rows="5" placeholder="Type your message here..." required></textarea>
+
+  <button type="submit" class="btn">Send Message</button>
+  <p id="formStatus" class="form-status"></p>
+</form>
+
+    </div>
+  </div>
+</section>
+
+  <!-- FOOTER -->
+  <!-- ENHANCED FOOTER -->
+<footer>
+  <div class="footer-decoration decoration-1">✝</div>
+  <div class="footer-decoration decoration-2">🕊</div>
+  
+  <div class="footer-container">
+    <div class="footer-content">
+      
+      <!-- About Section -->
+      <div class="footer-section">
+        <h3>Christ Symbol Prayer Ministry</h3>
+        <p>Taking everyone from nowhere to somewhere through the love and power of Jesus Christ. Join us as we minister hope, train hands, and raise leaders.</p>
+        <div class="footer-social-links">
+          <a href="https://facebook.com/yourpage" class="footer-social-link footer-social-facebook" target="_blank" aria-label="Facebook">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="https://youtube.com/yourchannel" class="footer-social-link footer-social-youtube" target="_blank" aria-label="YouTube">
+            <i class="fab fa-youtube"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="footer-section">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="#services">Our Services</a></li>
+          <li><a href="#events">Upcoming Events</a></li>
+          <li><a href="give.html">Give</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact Information -->
+      <div class="footer-section">
+        <h3>Get In Touch</h3>
+        <div class="contact-item">
+          <div class="contact-icon">
+            <i class="fas fa-map-marker-alt"></i>
+          </div>
+          <div>
+            <p>123 Church Street<br>Your City, Nigeria</p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">
+            <i class="fas fa-phone"></i>
+          </div>
+          <div>
+            <p>+234 905 589 6438</p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">
+            <i class="fas fa-envelope"></i>
+          </div>
+          <div>
+            <p>info@christsymbolprayer.org</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Live Streaming -->
+      <div class="footer-section">
+        <div class="live-section">
+          <h3>Watch Us </h3>
+          <p>Join our services online and be part of the community wherever you are!</p>
+          <div class="live-buttons">
+            <a href="https://youtube.com/yourchannel/live" class="live-btn youtube-btn" target="_blank">
+              <i class="fab fa-youtube"></i>
+              YouTube
+            </a>
+            <a href="https://facebook.com/yourpage/live" class="live-btn facebook-btn" target="_blank">
+              <i class="fab fa-facebook-f"></i>
+              Facebook
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2025 Christ Symbol Prayer Ministry. All rights reserved.</p>
+      <p class="verse">"For I know the plans I have for you, declares the Lord, plans to prosper you and not to harm you, plans to give you hope and a future." - Jeremiah 29:11</p>
+    </div>
+  </div>
+</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
